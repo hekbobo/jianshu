@@ -58,7 +58,7 @@ while True:
     n += 1
     print("ok:"+str(n))
 
-    if n > 100:  # add 101 more views
+    if n > 10:  # add 101 more views
         break
 
 app.exit()
