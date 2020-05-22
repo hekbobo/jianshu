@@ -50,7 +50,7 @@ class shua_view_class:
         self.c.close()
 
 
-Post_link="https://www.jianshu.com/p/94e84716c64c"
+Post_link="https://www.jianshu.com/p/e33268cfe41d"
 n = 0
 app=shua_view_class(Post_link)
 while True:
@@ -58,7 +58,7 @@ while True:
     n += 1
     print("ok:"+str(n))
 
-    if n > 10:  # add 101 more views
+    if n > 100:  # add 101 more views
         break
 
 app.exit()
